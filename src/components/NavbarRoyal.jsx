@@ -28,6 +28,9 @@ function NavbarRoyal() {
         </div>
         <Navbar.Collapse className="text-[#285856]">
           <div className="pr-2">
+            <Link to="/">Inicio</Link>
+          </div>
+          <div className="pr-2">
             <Link to="/about">Acerca de Nostros</Link>
           </div>
           <div className="pr-2">
@@ -56,7 +59,7 @@ function NavbarRoyal() {
             </Dropdown>
           </div>
           <div className="pr-2">
-            <Dropdown inline label="Nuestras Redes Sociales">
+            <Dropdown inline label="Redes Sociales">
               <a
                 href="https://www.facebook.com/hroyalgardentuxpan"
                 target="_blank"
