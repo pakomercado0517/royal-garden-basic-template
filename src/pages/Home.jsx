@@ -6,6 +6,7 @@ import MailButton from "../components/MailButton";
 import WelcomeComponent from "../components/WelcomeComponent";
 import ModalForm from "../components/ModalForm";
 import PoolDescription from "../components/PoolDescription";
+import EventsComponent from "../components/EventsComponent";
 
 function Home() {
   const [openModal, setOpenModal] = useState(false);
@@ -21,7 +22,9 @@ function Home() {
   return (
     <section className="">
       <WelcomeComponent />
-      <article className="mt-10"></article>
+      <article className="mt-10 rounded-lg bg-coronado shadow-lg shadow-beige container mx-auto">
+        <EventsComponent />
+      </article>
       <RoomDescription />
       <EventsDescription />
       <PoolDescription />
